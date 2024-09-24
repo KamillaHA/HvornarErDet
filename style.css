@@ -1,45 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-image: url('./white_bg.jpg');
-    background-size: cover;
-    background-position:center center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    font-family: 'Potta One', cursive;
-    margin: 0;
+  background-image: url("./ny.jpg");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Potta One", cursive;
+  margin: 0;
+  margin-top: 5rem;
 }
 
 h1 {
-    font-weight: normal;
-    font-size: 4rem;
-    margin-top: 5rem;
+  font-weight: normal;
+  font-size: 3.5rem;
+  margin-top: 5rem;
+  color: #d30000;
+  text-shadow: 0 0 30px #085d2e;
 }
 
 .countdown-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .big-text {
-    font-weight: bold;
-    font-size: 6rem;
-    line-height: 1;
-    margin: 1rem 2rem;
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 1rem 2rem;
+  color: #d30000;
+  text-shadow: 0 0 30px #085d2e;
 }
 
 .countdown-el {
-    text-align: center;
+  text-align: center;
+  color: #d30000;
+  text-shadow: 0 0 30px #085d2e;
 }
 
 .countdown-el span {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
